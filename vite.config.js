@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 배포 환경에서 상대 경로 사용
+  base: './', 
   build: {
     outDir: 'dist',
   },
